@@ -1,5 +1,7 @@
 package com.wolfsystems;
 
+import com.wolfsystems.utils.Utils;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -7,7 +9,7 @@ public class Main {
 		
 		if (args.length > 0)
 			txt += ", and hello to you, " + args[0];
-		System.out.println(txt + ".");
+		Utils.print(txt + ".");
 	}
 	
 }
